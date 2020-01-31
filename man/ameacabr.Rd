@@ -19,11 +19,7 @@ ameacabr(x, ufs, subsp = F, tabela = T)
 Avalia os status de ameaça das espécies da fauna brasileiras, incluindo as listas estaduais do país
 }
 \details{
-<<<<<<< HEAD
 \strong{AVISO}: Várias das bases de dados utilizadas estão defasadas em termos taxonômicos ou mesmo na utilização padrão das siglas de categoria de ameaca. Na medida do possível, faço alterações, mas não detenho conhecimento de toda a fauna para realizar substituições da nomenclatura científica. Use o pacote com cautela e redobre a atenção aos resultados. Se encontrar erros, me mande um e-mail para que eu possa corrigir.
-=======
-\strong{AVISO}: Várias das bases de dados utilizadas estão defasadas em termos taxonômicos ou mesmo na utilização padrão das siglas de categoria de ameaca. Na medida do possível, faço alterações, mas não detenho conhecimento de toda a fauna para realizar substituições da nomenclatura científica. Use o pacote com cautela e redobre a atenção aos resultados.
->>>>>>> f116045d3f934546eca0c011c12da4fe378d23e5
 \itemize{
 \item \strong{nome_cientifico}: Nome científico da espécie.
 \item \strong{nome_cientifico_subsp}: Nome científico da espécie, podendo ou não conter a subespécie elencada na lista vermelha.

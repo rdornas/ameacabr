@@ -22,12 +22,15 @@
 
 ameacabr <- function(x, ufs, subsp = F, tabela = T){
 
+  suppressWarnings(
+
   if(x == "todas"){
     especies_pesquisa <- unique(ameaca$nome_cientifico)
   }
   else{
     especies_pesquisa <- unique(x)
   }
+)
 
   # UF <- ameaca %>%
   #   dplyr::filter(uf != "Brasil") %>%
@@ -38,6 +41,7 @@ ameacabr <- function(x, ufs, subsp = F, tabela = T){
     dplyr::pull(.)
 
   suppressWarnings(
+
   if(subsp == T){
     if(ufs == "todas"){
       result <- ameaca %>%
@@ -90,6 +94,10 @@ ameacabr <- function(x, ufs, subsp = F, tabela = T){
         dplyr::select(uf, nome_cientifico, nome_cientifico_subsp, categoria)
     }
   }
+  )
+
+  suppressWarnings(
+
   if(tabela == F){
     return(result)
   }
