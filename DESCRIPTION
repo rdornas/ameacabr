@@ -1,6 +1,6 @@
 Package: ameacabr
-Title: Avalia os status de ameaça das espécies da fauna brasileiras, incluindo as listas estaduais do país
-Version: 0.0.0.9000
+Title: Status de ameaça das espécies da fauna brasileira
+Version: 0.0.1
 Authors@R: 
     person(given = "Rubem",
            family = "Dornas",
@@ -17,3 +17,5 @@ Imports:
     magrittr,
     tidyr,
     dplyr
+URL: https://github.com/rdornas/ameacabr
+BugReports: https://github.com/rdornas/ameacabr/issues

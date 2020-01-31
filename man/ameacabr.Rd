@@ -16,7 +16,7 @@ ameacabr(x, ufs, subsp = F, tabela = T)
 \item{tabela}{O resultado gerado deve estar em formato de tabela?}
 }
 \description{
-Avalia os status de ameaça das espécies da fauna brasileiras, incluindo as listas estaduais do país
+Pesquisa os status de ameaça das espécies da fauna brasileira incluindo as listas estaduais do país
 }
 \details{
 \strong{AVISO}: Várias das bases de dados utilizadas estão defasadas em termos taxonômicos ou mesmo na utilização padrão das siglas de categoria de ameaca. Na medida do possível, faço alterações, mas não detenho conhecimento de toda a fauna para realizar substituições da nomenclatura científica. Use o pacote com cautela e redobre a atenção aos resultados. Se encontrar erros, me mande um e-mail para que eu possa corrigir.

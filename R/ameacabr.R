@@ -1,6 +1,7 @@
 #' ameacabr
 #'
-#' Avalia os status de ameaça das espécies da fauna brasileiras, incluindo as listas estaduais do país
+#' Pesquisa os status de ameaça das espécies da fauna brasileira incluindo as listas estaduais do país
+#'
 #'
 #' @param x Vetor contendo as espécies a serem avaliadas.
 #' @param ufs Estados a serem pesquisados.

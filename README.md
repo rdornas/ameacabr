@@ -32,3 +32,13 @@ library(ameacabr)
 ameacabr(x = "Alouatta guariba", ufs = c("MG", "SP"), subsp = T, tabela = T)
 ```
 
+## Citação
+
+Se você acreditar que esse pacote é útil, por favor, utilize a citação:
+
+``` r
+citation(ameacabr)
+```
+ou simplesmente:
+
+
