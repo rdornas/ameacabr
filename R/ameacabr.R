@@ -43,13 +43,18 @@ ameacabr <- function(x, ufs, subsp = F, tabela = T){
       result <- ameaca %>%
         dplyr::filter(nome_cientifico_subsp %in% especies_pesquisa | nome_cientifico %in% especies_pesquisa,
                       uf %in% todas) %>%
-        dplyr::select(uf, nome_cientifico, nome_cientifico_subsp, categoria)
+        dplyr::select(uf, nome_cientifico, nome_cientifico_subsp, categoria) %>%
+        tidyr::complete(uf, nome_cientifico, nome_cientifico_subsp,
+                        fill = list(categoria = NA_character_))
+
     }
     else if(ufs == "UF"){
       result <- ameaca %>%
         dplyr::filter(nome_cientifico_subsp %in% especies_pesquisa | nome_cientifico %in% especies_pesquisa,
                       uf != "Brasil") %>%
-        dplyr::select(uf, nome_cientifico, nome_cientifico_subsp, categoria)
+        dplyr::select(uf, nome_cientifico, nome_cientifico_subsp, categoria) %>%
+        tidyr::complete(uf, nome_cientifico, nome_cientifico_subsp,
+                        fill = list(categoria = NA_character_))
     }
     else if(ufs == "BR"){
       result <- ameaca %>%
@@ -69,13 +74,17 @@ ameacabr <- function(x, ufs, subsp = F, tabela = T){
       result <- ameaca %>%
         dplyr::filter(nome_cientifico %in% especies_pesquisa,
                       uf %in% todas) %>%
-        dplyr::select(uf, nome_cientifico, nome_cientifico_subsp, categoria)
+        dplyr::select(uf, nome_cientifico, nome_cientifico_subsp, categoria) %>%
+        tidyr::complete(uf, nome_cientifico, nome_cientifico_subsp,
+                        fill = list(categoria = NA_character_))
     }
     else if(ufs == "UF"){
       result <- ameaca %>%
         dplyr::filter(nome_cientifico %in% especies_pesquisa,
                       uf != "Brasil") %>%
-        dplyr::select(uf, nome_cientifico, nome_cientifico_subsp, categoria)
+        dplyr::select(uf, nome_cientifico, nome_cientifico_subsp, categoria) %>%
+        tidyr::complete(uf, nome_cientifico, nome_cientifico_subsp,
+                        fill = list(categoria = NA_character_))
     }
     else if(ufs == "BR"){
       result <- ameaca %>%
