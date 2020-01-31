@@ -41,4 +41,4 @@ citation(ameacabr)
 ```
 ou simplesmente:
 
-
+Dornas, R. 2020. ameacabr: Status de ameaça das espécies da fauna brasileira. R package version 0.0.1. https://github.com/rdornas/ameacabr
