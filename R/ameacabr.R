@@ -37,7 +37,7 @@ ameacabr <- function(x, ufs, subsp = F, tabela = T){
     dplyr::distinct(uf) %>%
     dplyr::pull(.)
 
-  #suppressWarnings(
+  suppressWarnings(
   if(subsp == T){
     if(ufs == "todas"){
       result <- ameaca %>%
@@ -100,4 +100,5 @@ ameacabr <- function(x, ufs, subsp = F, tabela = T){
                          values_from = "categoria") %>%
       dplyr::select(nome_cientifico, nome_cientifico_subsp, order(colnames(.)))
   }
+  )
 }
