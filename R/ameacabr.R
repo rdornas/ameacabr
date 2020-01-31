@@ -45,10 +45,11 @@ ameacabr <- function(x, ufs, subsp = F, tabela = T){
         dplyr::filter(nome_cientifico_subsp %in% especies_pesquisa |
                         nome_cientifico %in% especies_pesquisa) %>%
         dplyr::select(uf, nome_cientifico, nome_cientifico_subsp, categoria) %>%
-        tidyr::complete(uf, tidyr::nesting(nome_cientifico, nome_cientifico_subsp),
+        tidyr::complete(uf,
+                        tidyr::nesting(nome_cientifico, nome_cientifico_subsp),
                         fill = list(categoria = NA_character_))
-
     }
+
     else if(ufs == "UF"){
       result <- ameaca %>%
         dplyr::filter(nome_cientifico_subsp %in% especies_pesquisa | nome_cientifico %in% especies_pesquisa) %>%
@@ -57,12 +58,14 @@ ameacabr <- function(x, ufs, subsp = F, tabela = T){
                         fill = list(categoria = NA_character_)) %>%
         dplyr::filter(uf != "Brasil")
     }
+
     else if(ufs == "BR"){
       result <- ameaca %>%
         dplyr::filter(nome_cientifico_subsp %in% especies_pesquisa | nome_cientifico %in% especies_pesquisa,
                       uf == "Brasil") %>%
         dplyr::select(uf, nome_cientifico, nome_cientifico_subsp, categoria)
     }
+
     else{
       result <- ameaca %>%
         dplyr::filter(nome_cientifico_subsp %in% especies_pesquisa | nome_cientifico %in% especies_pesquisa,
@@ -70,6 +73,7 @@ ameacabr <- function(x, ufs, subsp = F, tabela = T){
         dplyr::select(uf, nome_cientifico, nome_cientifico_subsp, categoria)
     }
   }
+
   else{
     if(ufs == "todas"){
       result <- ameaca %>%
