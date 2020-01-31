@@ -7,19 +7,21 @@
 ameacabr(x, ufs, subsp = F, tabela = T)
 }
 \arguments{
-\item{x}{Vetor contendo as espécies a serem avaliadas.}
+\item{x}{Vetor contendo as espécies a serem avaliadas. Se quiser pesquisar pela lista completa de espécies do banco de dados, utilize a opção "todas".}
 
-\item{ufs}{Estados a serem pesquisados.}
+\item{ufs}{Estados a serem pesquisados. Algumas opções especiais estão disponíveis: "UF" exibe apenas as listas estaduais, "BR" mostra apenas o resultado da lista nacional e "todas" realiza a pesquisa em todas as opções citadas acima.}
 
 \item{subsp}{O vetor das espécies contempla subespécies?}
 
 \item{tabela}{O resultado gerado deve estar em formato de tabela?}
 }
 \description{
-Pesquisa os status de ameaça das espécies da fauna brasileira incluindo as listas estaduais do país
+Pesquisa os status de ameaça das espécies da fauna brasileira incluindo as listas estaduais do país (atualmente disponíveis a seguintes UF/opções: Brasil, BA, ES, MG, PA, RJ, SP)
 }
 \details{
 \strong{AVISO}: Várias das bases de dados utilizadas estão defasadas em termos taxonômicos ou mesmo na utilização padrão das siglas de categoria de ameaca. Na medida do possível, faço alterações, mas não detenho conhecimento de toda a fauna para realizar substituições da nomenclatura científica. Use o pacote com cautela e redobre a atenção aos resultados. Se encontrar erros, me mande um e-mail para que eu possa corrigir.
+
+O resultado do data frame obtido é o seguinte (além das colunas das UF):
 \itemize{
 \item \strong{nome_cientifico}: Nome científico da espécie.
 \item \strong{nome_cientifico_subsp}: Nome científico da espécie, podendo ou não conter a subespécie elencada na lista vermelha.
