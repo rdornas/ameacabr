@@ -1,10 +1,10 @@
 #' ameacabr
 #'
-#' Pesquisa os status de ameaça das espécies da fauna brasileira incluindo as listas estaduais do país
+#' Pesquisa os status de ameaça das espécies da fauna brasileira incluindo as listas estaduais do país (atualmente disponíveis a seguintes UF/opções: Brasil, BA, ES, MG, PA, RJ, SP)
 #'
 #'
-#' @param x Vetor contendo as espécies a serem avaliadas.
-#' @param ufs Estados a serem pesquisados.
+#' @param x Vetor contendo as espécies a serem avaliadas. Se quiser pesquisar pela lista completa de espécies do banco de dados, utilize a opção "todas".
+#' @param ufs Estados a serem pesquisados. Algumas opções especiais estão disponíveis: "UF" exibe apenas as listas estaduais, "BR" mostra apenas o resultado da lista nacional e "todas" realiza a pesquisa em todas as opções citadas acima.
 #' @param subsp O vetor das espécies contempla subespécies?
 #' @param tabela O resultado gerado deve estar em formato de tabela?
 #'
@@ -12,6 +12,8 @@
 #'
 #' @details
 #' **AVISO**: Várias das bases de dados utilizadas estão defasadas em termos taxonômicos ou mesmo na utilização padrão das siglas de categoria de ameaca. Na medida do possível, faço alterações, mas não detenho conhecimento de toda a fauna para realizar substituições da nomenclatura científica. Use o pacote com cautela e redobre a atenção aos resultados. Se encontrar erros, me mande um e-mail para que eu possa corrigir.
+#'
+#' O resultado do data frame obtido é o seguinte (além das colunas das UF):
 #'
 #' * **nome_cientifico**: Nome científico da espécie.
 #' * **nome_cientifico_subsp**: Nome científico da espécie, podendo ou não conter a subespécie elencada na lista vermelha.
