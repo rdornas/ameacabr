@@ -22,13 +22,14 @@
 
 ameacabr <- function(x, ufs, subsp = F, tabela = T){
 
-  if(x == "todas"){
-    especies_pesquisa <- unique(ameaca$nome_cientifico)
-  }
-  else{
-    especies_pesquisa <- unique(x)
-  }
-
+  suppressWarnings(
+    if(x == "todas"){
+      especies_pesquisa <- unique(ameaca$nome_cientifico)
+    }
+    else{
+      especies_pesquisa <- unique(x)
+    }
+  )
   # UF <- ameaca %>%
   #   dplyr::filter(uf != "Brasil") %>%
   #   dplyr::pull(.)
