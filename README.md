@@ -6,6 +6,9 @@
 
 O objetivo do `ameacabr` é prover uma base de dados de listas vermelhas estaduais e nacional, possibilitando pesquisar e obter os _status_ de ameaça das espécies (e subespécies) da fauna brasileira ameaçadas de extinção.
 
+## AVISO
+Várias das bases de dados utilizadas estão defasadas em termos taxonômicos ou mesmo na utilização padrão das siglas de categoria de ameaca. Na medida do possível, faço alterações, mas não detenho conhecimento de toda a fauna para realizar substituições da nomenclatura científica. Use o pacote com cautela e redobre a atenção aos resultados. Se encontrar erros, me mande um e-mail para que eu possa corrigir.
+
 ## Instalação
 
 A instalação do pacote se dá por intermédio do acesso ao repositório no Github, conforme instruções abaixo:
