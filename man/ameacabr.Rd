@@ -16,37 +16,15 @@ ameacabr(x, ufs, subsp = F, tabela = T)
 \item{tabela}{O resultado gerado deve estar em formato de tabela?}
 }
 \description{
-Creates complete dataframe/shapefile from Hotspots results obtained from \href{http://www.ufrgs.br/siriema/}{Siriema} software.
+Avalia os status de ameaça das espécies da fauna brasileiras, incluindo as listas estaduais do país
 }
 \details{
-**WARNING**: For best (and accurate) results, it is strongly recommended that the Hotspot analysis is performed taking into account the number of divisions set to double of the radius.
-
-The function offers a large list object containing two elements: a spatial data frame with improvements of Siriema's Hotspot Analysis results and a summary of the species found in each sample unit.
-
-The spatial data frame is called `shapefile` and it is composed by the following attributes:
-
-* **ID**: ID of the sample unit.
-* **length**: Length of the sample unit. It is supposed to be very similar to the diameter (double of the radius) of the original Hotspot Analysis.
-* **km_center**: Central km mark of the sample unit.
-* **km_ini**: Initial km mark of the sample unit.
-* **km_end**: Final km mark of the sample unit.
-* **HS**: Aggregation intensity.
-* **UCL**: Upper confidence limit.
-* **LCL**: Lower confidence limit.
-* **HS-UCL**: Subtraction of aggregation intensity by the upper limit of confidence interval. This is the "real" value of aggregation intensity as it already takes into account what is above the confidence interval.
-* **Hotspot**: Information if the sample unit is a hotspot. Y means that \eqn{HS-UCL > 0} and therefore it is already a hotspot.
-* **NEvents**: Number of events in the sample unit.
-* **Rank**: Rank of aggregation intensity based on _HS-UCL_.
-* **FisherJenks3**: Fisher-Jenks classification in three classes (text) based on _HS-UCL_.
-* **FJ3num**: Fisher-Jenks classification in three classes (numeric) based on _HS-UCL_.
-* **FisherJenks5**: Fisher-Jenks classification in five classes (text) based on _HS-UCL_.
-* **FJ5num**: Fisher-Jenks classification in five classes (numeric) based on _HS-UCL_.
-
-The summary of the species found in each sample unit is called `species_df` and it is composed by the following attributes:
-
-* **ID**: ID of the sample unit.
-* **Sp**: Species name (as from the Events file)
-* **NEvents**: Number of events in the sample unit.
+\strong{AVISO}: Várias das bases de dados utilizadas estão defasadas em termos taxonômicos ou mesmo na utilização padrão das siglas de categoria de ameaca. Na medida do possível, faço alterações, mas não detenho conhecimento de toda a fauna para realizar substituições da nomenclatura científica. Use o pacote com cautela e redobre a atenção aos resultados.
+\itemize{
+\item \strong{nome_cientifico}: Nome científico da espécie.
+\item \strong{nome_cientifico_subsp}: Nome científico da espécie, podendo ou não conter a subespécie elencada na lista vermelha.
+\item \strong{categoria}: Categoria de ameaça da espécie.
+}
 }
 \author{
 Rubem Dornas \email{(rapdornas@gmail.com)}

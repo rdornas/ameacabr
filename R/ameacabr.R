@@ -10,7 +10,7 @@
 #' @author Rubem Dornas \email{(rapdornas@@gmail.com)}
 #'
 #' @details
-#' **AVISO**: Várias das bases de dados utilizadas estão defasadas em termos taxonômicos ou mesmo na utilização padrão das siglas de categoria de ameaca. Na medida do possível, faço alterações, mas não detenho conhecimento de toda a fauna para realizar substituições da nomenclatura científica. Use o pacote com cautela e redobre a atenção aos resultados.
+#' **AVISO**: Várias das bases de dados utilizadas estão defasadas em termos taxonômicos ou mesmo na utilização padrão das siglas de categoria de ameaca. Na medida do possível, faço alterações, mas não detenho conhecimento de toda a fauna para realizar substituições da nomenclatura científica. Use o pacote com cautela e redobre a atenção aos resultados. Se encontrar erros, me mande um e-mail para que eu possa corrigir.
 #'
 #' * **nome_cientifico**: Nome científico da espécie.
 #' * **nome_cientifico_subsp**: Nome científico da espécie, podendo ou não conter a subespécie elencada na lista vermelha.
