@@ -1,6 +1,6 @@
 #' ameacabr
 #'
-#' Pesquisa os status de ameaça das espécies da fauna brasileira incluindo as listas estaduais do país (atualmente disponíveis a seguintes UF/opções: Brasil, BA, ES, MG, PA, RJ, SP)
+#' Pesquisa os status de ameaça das espécies da fauna brasileira incluindo as listas estaduais do país (atualmente disponíveis a seguintes UF/opções: Brasil, BA, ES, MG, PA, RJ, SC, SP)
 #'
 #'
 #' @param x Vetor contendo as espécies a serem avaliadas. Se quiser pesquisar pela lista completa de espécies do banco de dados, utilize a opção "todas".
