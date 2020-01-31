@@ -29,7 +29,7 @@ Esse é um exemplo básico da utilização do pacote:
 ``` r
 library(ameacabr)
 
-ameacabr(x = "Alouatta guariba", ufs = c("MG", "SP"), subsp = T, tabela = T)
+ameacabr(x = "Alouatta guariba", ufs = c("MG", "SP"), subsp = F, tabela = T)
 ```
 
 ## Citação
