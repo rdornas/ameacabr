@@ -42,9 +42,10 @@ ameacabr <- function(x, ufs, subsp = F, tabela = T){
   if(subsp == T){
     if(ufs == "todas"){
       result <- ameaca %>%
-        dplyr::filter(nome_cientifico_subsp %in% especies_pesquisa | nome_cientifico %in% especies_pesquisa) %>%
+        dplyr::filter(nome_cientifico_subsp %in% especies_pesquisa |
+                        nome_cientifico %in% especies_pesquisa) %>%
         dplyr::select(uf, nome_cientifico, nome_cientifico_subsp, categoria) %>%
-        tidyr::complete(uf, nesting(nome_cientifico, nome_cientifico_subsp),
+        tidyr::complete(uf, tidyr::nesting(nome_cientifico, nome_cientifico_subsp),
                         fill = list(categoria = NA_character_))
 
     }
