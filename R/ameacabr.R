@@ -79,7 +79,7 @@ ameacabr <- function(x, ufs, subsp = F, tabela = T){
       result <- ameaca %>%
         dplyr::filter(nome_cientifico %in% especies_pesquisa) %>%
         dplyr::select(uf, nome_cientifico, nome_cientifico_subsp, categoria) %>%
-        tidyr::complete(uf, nesting(nome_cientifico, nome_cientifico_subsp),
+        tidyr::complete(uf, tidyr::nesting(nome_cientifico, nome_cientifico_subsp),
                         fill = list(categoria = NA_character_))
     }
     else if(ufs == "UF"){
