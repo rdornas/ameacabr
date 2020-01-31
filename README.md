@@ -8,11 +8,18 @@ O objetivo do `ameacabr` é prover uma base de dados de listas vermelhas estadua
 
 ## Instalação
 
-A instalação do pacote se dá por intermédio do acesso ao repositório no github:
+A instalação do pacote se dá por intermédio do acesso ao repositório no Github, conforme instruções abaixo:
 
 ``` r
 #install.packages("devtools")
 devtools::install_github("rdornas/ameacabr")
+```
+
+Uma vez que ao atualizar os pacotes pelo R não ocorre atualização dos pacotes não instalados pelo CRAN, sugiro que, sempre que possível, rode o comando para atualizar pacotes advindos do Github:
+
+``` r
+devtools::install_github("hrbrmstr/dtupdate")
+dtupdate::github_update()
 ```
 
 ## Exemplo
