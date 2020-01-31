@@ -22,15 +22,12 @@
 
 ameacabr <- function(x, ufs, subsp = F, tabela = T){
 
-  suppressWarnings(
-
   if(x == "todas"){
     especies_pesquisa <- unique(ameaca$nome_cientifico)
   }
   else{
     especies_pesquisa <- unique(x)
   }
-)
 
   # UF <- ameaca %>%
   #   dplyr::filter(uf != "Brasil") %>%
@@ -41,7 +38,6 @@ ameacabr <- function(x, ufs, subsp = F, tabela = T){
     dplyr::pull(.)
 
   suppressWarnings(
-
   if(subsp == T){
     if(ufs == "todas"){
       result <- ameaca %>%
@@ -96,17 +92,16 @@ ameacabr <- function(x, ufs, subsp = F, tabela = T){
   }
   )
 
-  suppressWarnings(
-
   if(tabela == F){
     return(result)
   }
+
   else{
     result %>%
       tidyr::pivot_wider(.,
                          names_from = "uf",
-                         values_from = "categoria") %>%
+                         values_from = "categoria",
+                         values_fill = list(~ NA_character_)) %>%
       dplyr::select(nome_cientifico, nome_cientifico_subsp, order(colnames(.)))
   }
-  )
 }
