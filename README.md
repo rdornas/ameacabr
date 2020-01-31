@@ -37,7 +37,7 @@ ameacabr(x = "Alouatta guariba", ufs = c("MG", "SP"), subsp = F, tabela = T)
 Se você acreditar que esse pacote é útil, por favor, utilize a citação:
 
 ``` r
-citation(ameacabr)
+citation("ameacabr")
 ```
 ou simplesmente:
 
