@@ -22,7 +22,7 @@ Uma vez que ao atualizar os pacotes pelo R não ocorre atualização dos pacotes
 
 ``` r
 devtools::install_github("hrbrmstr/dtupdate")
-dtupdate::github_update()
+dtupdate::github_update(auto.install = T)
 ```
 
 ## Exemplo
