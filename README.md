@@ -18,7 +18,7 @@ A instalação do pacote se dá por intermédio do acesso ao repositório no Git
 devtools::install_github("rdornas/ameacabr")
 ```
 
-Uma vez que ao atualizar os pacotes pelo R não ocorre atualização dos pacotes não instalados pelo CRAN, sugiro que, sempre que possível, rode o comando para atualizar pacotes advindos do Github:
+Uma vez que ao atualizar os pacotes pelo R / RStudio não ocorre atualização dos pacotes não instalados pelo CRAN, sugiro que, sempre que possível, rode o comando para atualizar pacotes advindos do Github:
 
 ``` r
 devtools::install_github("hrbrmstr/dtupdate")
@@ -27,7 +27,7 @@ dtupdate::github_update(auto.install = T)
 
 ## Exemplo
 
-Esse é um exemplo básico da utilização do pacote:
+Abaixo segue um exemplo básico da utilização do pacote. Você pode consultar uma ajuda mais detalhada digitando `?ameacabr::ameacabr` diretamente no R.
 
 ``` r
 library(ameacabr)
