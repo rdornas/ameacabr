@@ -42,7 +42,7 @@ ameacabr <- function(x, ufs, subsp = F, tabela = T){
     dplyr::pull(.)
 
   df <- ameaca %>%
-    dplyr::select(-sinonimo_ou_erro)
+    dplyr::as_tibble(.)
 
   suppressWarnings(
   if(subsp == T){
