@@ -76,9 +76,7 @@ MG,Alouatta guariba,guariba,Alouatta guariba guariba,CR,TRUE
 SP,Alouatta guariba,clamitans,Alouatta guariba clamitans,EN,TRUE
 Brasil,Alouatta ululata,NA,Alouatta ululata,EN,FALSE
 Brasil,Amadonastur lacernulatus,NA,Amadonastur lacernulatus,VU,FALSE
- Amadonastur lacernulatus,,,,,NA
 SP,Amadonastur lacernulatus,NA,Amadonastur lacernulatus,VU,FALSE
- Amadonastur lacernulatus,,,,,NA
 MG,Amaurospiza moesta,NA,Amaurospiza moesta,VU,FALSE
 RJ,Amaurospiza moesta,NA,Amaurospiza moesta,VU,FALSE
 SP,Amaurospiza moesta,NA,Amaurospiza moesta,VU,FALSE
@@ -1059,9 +1057,7 @@ SP,Leontopithecus chrysopygus,NA,Leontopithecus chrysopygus,EN,FALSE
 Brasil,Leontopithecus rosalia,NA,Leontopithecus rosalia,EN,FALSE
 RJ,Leontopithecus rosalia,NA,Leontopithecus rosalia,EN,FALSE
 MG,Leopardus colocola,NA,Leopardus colocola,EN,FALSE
- Leopardus colocola,,,,,NA
 Brasil,Leopardus colocola,NA,Leopardus colocola,VU,FALSE
- Leopardus colocola,,,,,NA
 Brasil,Leopardus geoffroyi,NA,Leopardus geoffroyi,VU,FALSE
 BA,Leopardus guttulus,NA,Leopardus guttulus,EN,FALSE
 Brasil,Leopardus guttulus,NA,Leopardus guttulus,VU,FALSE
@@ -1126,15 +1122,10 @@ RJ,Leptolebias sandrii,NA,Leptolebias sandrii,EW,FALSE
 SP,Leucochrysa interata,interata,Leucochrysa interata interata,CR,TRUE
 SP,Leucochrysa parallela,parallela,Leucochrysa parallela parallela,CR,TRUE
 RJ,Amadonastur lacernulatus,NA,Amadonastur lacernulatus,VU,FALSE
- Amadonastur lacernulatus,,,,,NA
 MG,Amadonastur lacernulatus,NA,Amadonastur lacernulatus,CR,FALSE
- Amadonastur lacernulatus,,,,,NA
 SC,Amadonastur lacernulatus,NA,Amadonastur lacernulatus,VU,FALSE
- Amadonastur lacernulatus,,,,,NA
 ES,Pseudastur polionotus,NA,Pseudastur polionotus,VU,FALSE
- Pseudastur polionotus,,,,,NA
 MG,Pseudastur polionotus,NA,Pseudastur polionotus,CR,FALSE
- Pseudastur polionotus,,,,,NA
 SC,Leurotrigona muelleri,NA,Leurotrigona muelleri,VU,FALSE
 ES,Lichonycteris obscura,NA,Lichonycteris obscura,VU,FALSE
 SC,Limnoctites rectirostris,NA,Limnoctites rectirostris,CR,FALSE
@@ -1762,7 +1753,6 @@ PA,Propyrrhura maracana,NA,Propyrrhura maracana,VU,FALSE
 SC,Psammanthus caraguaensis,NA,Psammanthus caraguaensis,CR,FALSE
 SP,Psammobatis extenta,NA,Psammobatis extenta,EN,FALSE
 SP,Pseudastur polionotus,NA,Pseudastur polionotus,VU,FALSE
- Pseudastur polionotus,,,,,NA
 SP,Pseudobatos horkelii,NA,Pseudobatos horkelii,EN,FALSE
 SP,Pseudobatos percellens,NA,Pseudobatos percellens,EN,FALSE
 PA,Pseudoboa nigra,NA,Pseudoboa nigra,VU,FALSE
