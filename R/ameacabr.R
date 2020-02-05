@@ -41,6 +41,8 @@ ameacabr <- function(x, ufs, subsp = F, tabela = T){
     dplyr::distinct(uf) %>%
     dplyr::pull(.)
 
+  ameaca <- ameaca %>%
+    dplyr::select(-sinonimo_ou_erro)
 
   suppressWarnings(
   if(subsp == T){
