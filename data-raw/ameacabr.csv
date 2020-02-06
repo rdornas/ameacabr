@@ -164,7 +164,7 @@ SP,Apterostigma acre,NA,Apterostigma acre,VU,FALSE
 MG,Ara ararauna,NA,Ara ararauna,VU,FALSE
 RJ,Ara ararauna,NA,Ara ararauna,EW,FALSE
 SP,Ara ararauna,NA,Ara ararauna,VU,FALSE
-RJ,Ara chloropterus,NA,Ara chloropterus,EW,FALSE
+RJ,Ara chloroptera,NA,Ara chloroptera,EW,FALSE
 BA,Ara chloropterus,NA,Ara chloropterus,EN,FALSE
 MG,Ara chloropterus,NA,Ara chloropterus,CR,FALSE
 SP,Ara chloropterus,NA,Ara chloropterus,CR,FALSE
@@ -261,7 +261,7 @@ PA,Bolitoglossa paraensis,NA,Bolitoglossa paraensis,VU,FALSE
 SP,Bopsula evelinae,NA,Bopsula evelinae,VU,FALSE
 Brasil,Bothrops alcatraz,NA,Bothrops alcatraz,CR,FALSE
 SP,Bothrops alcatraz,NA,Bothrops alcatraz,VU,FALSE
-ES,Bothrops bilineatus,NA,Bothrops bilineatus,VU,FALSE
+ES,Bothrops bilineata,NA,Bothrops bilineata,VU,FALSE
 BA,Bothrops bilineatus,NA,Bothrops bilineatus,VU,FALSE
 RJ,Bothrops bilineatus,NA,Bothrops bilineatus,EW,FALSE
 SP,Bothrops cotiara,NA,Bothrops cotiara,EN,FALSE
@@ -411,9 +411,9 @@ Brasil,Cavia intermedia,NA,Cavia intermedia,CR,FALSE
 SC,Cavia intermedia,NA,Cavia intermedia,CR,FALSE
 Brasil,Cebus kaapori,NA,Cebus kaapori,CR,FALSE
 PA,Cebus kaapori,NA,Cebus kaapori,CR,FALSE
-ES,Sapajus robustus,NA,Sapajus robustus,VU,FALSE
-MG,Sapajus robustus,NA,Sapajus robustus,EN,FALSE
-MG,Sapajus xanthosternos,NA,Sapajus xanthosternos,CR,FALSE
+ES,Cebus robustus,NA,Cebus robustus,VU,FALSE
+MG,Cebus robustus,NA,Cebus robustus,EN,FALSE
+MG,Cebus xanthosternos,NA,Cebus xanthosternos,CR,FALSE
 Brasil,Celaetycheus mungunza,NA,Celaetycheus mungunza,CR,FALSE
 BA,Celeus flavus,NA,Celeus flavus,EN,FALSE
 Brasil,Celeus flavus,subflavus,Celeus flavus subflavus,CR,TRUE
@@ -437,7 +437,7 @@ PA,Cercomacra ferdinandi,NA,Cercomacra ferdinandi,VU,FALSE
 SP,Cercosaura ocellata,NA,Cercosaura ocellata,VU,FALSE
 SP,Cercosaura schreibersii,albostrigata,Cercosaura schreibersii albostrigata,EN,TRUE
 SC,Ceriantheomorphe brasiliensis,NA,Ceriantheomorphe brasiliensis,EN,FALSE
-SP,Ceriantheomorphe brasiliensis,NA,Ceriantheomorphe brasiliensis,EN,FALSE
+SP,Cerianthomorphe brasiliensis,NA,Cerianthomorphe brasiliensis,EN,FALSE
 Brasil,Cerradomys goytaca,NA,Cerradomys goytaca,EN,FALSE
 SP,Cerradomys scotti,NA,Cerradomys scotti,VU,FALSE
 ES,Cetorhinus maximus,NA,Cetorhinus maximus,VU,FALSE
@@ -577,7 +577,7 @@ SP,Coturnicops notatus,NA,Coturnicops notatus,CR,FALSE
 Brasil,Cranioleuca muelleri,NA,Cranioleuca muelleri,VU,FALSE
 SC,Crassostrea brasiliana,NA,Crassostrea brasiliana,VU,FALSE
 RJ,Crassostrea rhizophorae,NA,Crassostrea rhizophorae,EN,FALSE
-ES,Crax blumenbachii,NA,Crax blumenbachii,CR,FALSE
+ES,Crax blumembachii,NA,Crax blumembachii,CR,FALSE
 BA,Crax blumenbachii,NA,Crax blumenbachii,CR,FALSE
 Brasil,Crax blumenbachii,NA,Crax blumenbachii,CR,FALSE
 MG,Crax blumenbachii,NA,Crax blumenbachii,CR,FALSE
@@ -717,7 +717,7 @@ MG,Drymophila genei,NA,Drymophila genei,VU,FALSE
 SC,Drymophila squamata,NA,Drymophila squamata,EN,FALSE
 PA,Drymusa canhemabae,NA,Drymusa canhemabae,VU,FALSE
 PA,Drymusa colligata,NA,Drymusa colligata,VU,FALSE
-PA,Drymusa spelunca,NA,Drymusa spelunca,EN,FALSE
+PA,Drymusa espelunca,NA,Drymusa espelunca,EN,FALSE
 Brasil,Drymusa spelunca,NA,Drymusa spelunca,CR,FALSE
 PA,Drymusa tobyi,NA,Drymusa tobyi,VU,FALSE
 Brasil,Dryocopus galeatus,NA,Dryocopus galeatus,EN,FALSE
@@ -769,7 +769,7 @@ BA,Eubalaena australis,NA,Eubalaena australis,EN,FALSE
 Brasil,Eubalaena australis,NA,Eubalaena australis,EN,FALSE
 RJ,Eubalaena australis,NA,Eubalaena australis,VU,FALSE
 SC,Eubalaena australis,NA,Eubalaena australis,VU,FALSE
-ES,Eubalaena australis,NA,Eubalaena australis,EN,FALSE
+ES,Eubalena australis,NA,Eubalena australis,EN,FALSE
 SC,Eucidaris tribuloides,NA,Eucidaris tribuloides,VU,FALSE
 SP,Eudistoma clavatum,NA,Eudistoma clavatum,CR,FALSE
 RJ,Eudocimus ruber,NA,Eudocimus ruber,CR,FALSE
@@ -806,7 +806,7 @@ MG,Fimoscolex sporadochaetus,NA,Fimoscolex sporadochaetus,CR,FALSE
 ES,Formicarius colma,NA,Formicarius colma,VU,FALSE
 MG,Formicarius colma,NA,Formicarius colma,VU,FALSE
 Brasil,Formicivora erythronotos,NA,Formicivora erythronotos,CR,FALSE
-RJ,Formicivora erythronotos,NA,Formicivora erythronotos,VU,FALSE
+RJ,Formicivora erythronotus,NA,Formicivora erythronotus,VU,FALSE
 BA,Formicivora grantsaui,NA,Formicivora grantsaui,EN,FALSE
 Brasil,Formicivora grantsaui,NA,Formicivora grantsaui,EN,FALSE
 Brasil,Formicivora littoralis,NA,Formicivora littoralis,EN,FALSE
@@ -984,16 +984,16 @@ PA,Hypoleria lavinia,mulviana,Hypoleria lavinia mulviana,EN,TRUE
 SP,Hypomasticus thayeri,NA,Hypomasticus thayeri,EN,FALSE
 SP,Hyporthodus nigritus,NA,Hyporthodus nigritus,EN,FALSE
 SP,Hyporthodus niveatus,NA,Hyporthodus niveatus,EN,FALSE
-MG,Boana beckeri,NA,Boana beckeri,VU,FALSE
-Brasil,Boana curupi,NA,Boana curupi,VU,FALSE
-SC,Boana curupi,NA,Boana curupi,EN,FALSE
-Brasil,Boana cymbalum,NA,Boana cymbalum,CR(PEX),FALSE
-SP,Boana cymbalum,NA,Boana cymbalum,EW,FALSE
-SC,Boana marginata,NA,Boana marginata,VU,FALSE
-SC,Boana poaju,NA,Boana poaju,VU,FALSE
-Brasil,Boana semiguttata,NA,Boana semiguttata,EN,FALSE
-SC,Boana semiguttata,NA,Boana semiguttata,EN,FALSE
-MG,Boana stenocephala,NA,Boana stenocephala,VU,FALSE
+MG,Hypsiboas beckeri,NA,Hypsiboas beckeri,VU,FALSE
+Brasil,Hypsiboas curupi,NA,Hypsiboas curupi,VU,FALSE
+SC,Hypsiboas curupi,NA,Hypsiboas curupi,EN,FALSE
+Brasil,Hypsiboas cymbalum,NA,Hypsiboas cymbalum,CR(PEX),FALSE
+SP,Hypsiboas cymbalum,NA,Hypsiboas cymbalum,EW,FALSE
+SC,Hypsiboas marginatus,NA,Hypsiboas marginatus,VU,FALSE
+SC,Hypsiboas poaju,NA,Hypsiboas poaju,VU,FALSE
+Brasil,Hypsiboas semiguttatus,NA,Hypsiboas semiguttatus,EN,FALSE
+SC,Hypsiboas semiguttatus,NA,Hypsiboas semiguttatus,EN,FALSE
+MG,Hypsiboas stenocephalus,NA,Hypsiboas stenocephalus,VU,FALSE
 Brasil,Ianduba paubrasil,NA,Ianduba paubrasil,EN,FALSE
 MG,Iandumoema uai,NA,Iandumoema uai,VU,FALSE
 SP,Ibycter americanus,NA,Ibycter americanus,EW,FALSE
@@ -1056,8 +1056,8 @@ Brasil,Leontopithecus chrysopygus,NA,Leontopithecus chrysopygus,EN,FALSE
 SP,Leontopithecus chrysopygus,NA,Leontopithecus chrysopygus,EN,FALSE
 Brasil,Leontopithecus rosalia,NA,Leontopithecus rosalia,EN,FALSE
 RJ,Leontopithecus rosalia,NA,Leontopithecus rosalia,EN,FALSE
-MG,Leopardus colocola,NA,Leopardus colocola,EN,FALSE
-Brasil,Leopardus colocola,NA,Leopardus colocola,VU,FALSE
+MG,Leopardus braccatus,NA,Leopardus braccatus,EN,FALSE
+Brasil,Leopardus colocolo,NA,Leopardus colocolo,VU,FALSE
 Brasil,Leopardus geoffroyi,NA,Leopardus geoffroyi,VU,FALSE
 BA,Leopardus guttulus,NA,Leopardus guttulus,EN,FALSE
 Brasil,Leopardus guttulus,NA,Leopardus guttulus,VU,FALSE
@@ -1121,11 +1121,11 @@ RJ,Leptolebias nanus,NA,Leptolebias nanus,VU,FALSE
 RJ,Leptolebias sandrii,NA,Leptolebias sandrii,EW,FALSE
 SP,Leucochrysa interata,interata,Leucochrysa interata interata,CR,TRUE
 SP,Leucochrysa parallela,parallela,Leucochrysa parallela parallela,CR,TRUE
-RJ,Amadonastur lacernulatus,NA,Amadonastur lacernulatus,VU,FALSE
-MG,Amadonastur lacernulatus,NA,Amadonastur lacernulatus,CR,FALSE
-SC,Amadonastur lacernulatus,NA,Amadonastur lacernulatus,VU,FALSE
-ES,Pseudastur polionotus,NA,Pseudastur polionotus,VU,FALSE
-MG,Pseudastur polionotus,NA,Pseudastur polionotus,CR,FALSE
+RJ,Leucopternis lacernulata,NA,Leucopternis lacernulata,VU,FALSE
+MG,Leucopternis lacernulatus,NA,Leucopternis lacernulatus,CR,FALSE
+SC,Leucopternis lacernulatus,NA,Leucopternis lacernulatus,VU,FALSE
+ES,Leucopternis polionota,NA,Leucopternis polionota,VU,FALSE
+MG,Leucopternis polionotus,NA,Leucopternis polionotus,CR,FALSE
 SC,Leurotrigona muelleri,NA,Leurotrigona muelleri,VU,FALSE
 ES,Lichonycteris obscura,NA,Lichonycteris obscura,VU,FALSE
 SC,Limnoctites rectirostris,NA,Limnoctites rectirostris,CR,FALSE
@@ -1207,7 +1207,7 @@ SC,Mazama americana,NA,Mazama americana,EN,FALSE
 SP,Mazama americana,NA,Mazama americana,EN,FALSE
 Brasil,Mazama bororo,NA,Mazama bororo,VU,FALSE
 SP,Mazama bororo,NA,Mazama bororo,VU,FALSE
-RJ,Mazama gouazoubira,NA,Mazama gouazoubira,EN,FALSE
+RJ,Mazama gouazoupira,NA,Mazama gouazoupira,EN,FALSE
 Brasil,Mazama nana,NA,Mazama nana,VU,FALSE
 SC,Mazama nana,NA,Mazama nana,VU,FALSE
 SP,Mazama nana,NA,Mazama nana,CR,FALSE
@@ -1462,7 +1462,7 @@ SP,Ololygon peixotoi,NA,Ololygon peixotoi,CR,FALSE
 RJ,Onychorhynchus coronatus,NA,Onychorhynchus coronatus,VU,FALSE
 SC,Onychorhynchus swainsoni,NA,Onychorhynchus swainsoni,CR,FALSE
 SP,Onychorhynchus swainsoni,NA,Onychorhynchus swainsoni,VU,FALSE
-MG,Onychorhynchus swainsoni,NA,Onychorhynchus swainsoni,CR,FALSE
+MG,Onycorhynchus swainsoni,NA,Onycorhynchus swainsoni,CR,FALSE
 SP,Ophidion holbrooki,NA,Ophidion holbrooki,CR,FALSE
 ES,Oreaster reticulatus,NA,Oreaster reticulatus,VU,FALSE
 SC,Oreaster reticulatus,NA,Oreaster reticulatus,CR,FALSE
@@ -1664,10 +1664,10 @@ RJ,Pipra pipra,NA,Pipra pipra,VU,FALSE
 RJ,Pipra rubrocapilla,NA,Pipra rubrocapilla,VU,FALSE
 Brasil,Piprites chloris,grisescens,Piprites chloris grisescens,VU,TRUE
 MG,Piprites chloris,NA,Piprites chloris,VU,FALSE
-PA,Piprites chloris,grisescens,Piprites chloris grisescens,VU,TRUE
+PA,Piprites chloris,griseicens,Piprites chloris griseicens,VU,TRUE
 MG,Piprites pileata,NA,Piprites pileata,EN,FALSE
 SC,Piprites pileata,NA,Piprites pileata,EN,FALSE
-RJ,Piprites pileata,NA,Piprites pileata,VU,FALSE
+RJ,Piprites pileatus,NA,Piprites pileatus,VU,FALSE
 Brasil,Placosoma cipoense,NA,Placosoma cipoense,EN,FALSE
 MG,Placosoma cipoense,NA,Placosoma cipoense,VU,FALSE
 SC,Plagiobrissus grandis,NA,Plagiobrissus grandis,VU,FALSE
@@ -1807,8 +1807,8 @@ MG,Puma concolor,NA,Puma concolor,VU,FALSE
 PA,Puma concolor,NA,Puma concolor,VU,FALSE
 SC,Puma concolor,NA,Puma concolor,VU,FALSE
 SP,Puma concolor,NA,Puma concolor,VU,FALSE
-BA,Herpailurus yagouaroundi,NA,Herpailurus yagouaroundi,VU,FALSE
-Brasil,Herpailurus yagouaroundi,NA,Herpailurus yagouaroundi,VU,FALSE
+BA,Puma yagouaroundi,NA,Puma yagouaroundi,VU,FALSE
+Brasil,Puma yagouaroundi,NA,Puma yagouaroundi,VU,FALSE
 BA,Pyriglena atra,NA,Pyriglena atra,EN,FALSE
 Brasil,Pyriglena atra,NA,Pyriglena atra,EN,FALSE
 Brasil,Pyriglena pernambucensis,NA,Pyriglena pernambucensis,VU,FALSE
@@ -2214,7 +2214,7 @@ Brasil,Tinamus tao,NA,Tinamus tao,VU,FALSE
 SP,Tithonophasma tithonus,NA,Tithonophasma tithonus,VU,FALSE
 MG,Tithorea harmonia,caissara,Tithorea harmonia caissara,EN,TRUE
 SP,Tithorea harmonia,caissara,Tithorea harmonia caissara,VU,TRUE
-ES,Tithorea harmonia,caissara,Tithorea harmonia caissara,VU,TRUE
+ES,Tithorea harmonica,caissara,Tithorea harmonica caissara,VU,TRUE
 SP,Tivela mactroides,NA,Tivela mactroides,VU,FALSE
 SP,Tivela ventricosa,NA,Tivela ventricosa,VU,FALSE
 PA,Tolmomyias assimilis,paraensis,Tolmomyias assimilis paraensis,EN,TRUE
@@ -2223,13 +2223,13 @@ Brasil,Tolypeutes tricinctus,NA,Tolypeutes tricinctus,EN,FALSE
 PA,Tolypeutes tricinctus,NA,Tolypeutes tricinctus,VU,FALSE
 SC,Tonatia bidens,NA,Tonatia bidens,CR,FALSE
 SP,Tonna galea,NA,Tonna galea,VU,FALSE
-RJ,Touit melanonotus,NA,Touit melanonotus,VU,FALSE
+RJ,Touit melanonota,NA,Touit melanonota,VU,FALSE
 BA,Touit melanonotus,NA,Touit melanonotus,CR,FALSE
 Brasil,Touit melanonotus,NA,Touit melanonotus,VU,FALSE
 ES,Touit melanonotus,NA,Touit melanonotus,EN,FALSE
 SC,Touit melanonotus,NA,Touit melanonotus,CR,FALSE
 SP,Touit melanonotus,NA,Touit melanonotus,VU,FALSE
-RJ,Touit surdus,NA,Touit surdus,VU,FALSE
+RJ,Touit surda,NA,Touit surda,VU,FALSE
 Brasil,Touit surdus,NA,Touit surdus,VU,FALSE
 ES,Touit surdus,NA,Touit surdus,EN,FALSE
 MG,Touit surdus,NA,Touit surdus,CR,FALSE
@@ -2249,7 +2249,7 @@ RJ,Trichomycterus mirissumba,NA,Trichomycterus mirissumba,VU,FALSE
 SP,Trichomycterus paolence,NA,Trichomycterus paolence,EN,FALSE
 RJ,Trichomycterus paquequerensis,NA,Trichomycterus paquequerensis,VU,FALSE
 RJ,Trichomycterus travassoi,NA,Trichomycterus travassoi,VU,FALSE
-RJ,Trichomycterus triguttatus,NA,Trichomycterus triguttatus,VU,FALSE
+RJ,Trichomycterus trigutatus,NA,Trichomycterus trigutatus,VU,FALSE
 SP,Trichomycterus triguttatus,NA,Trichomycterus triguttatus,CR,FALSE
 RJ,Trichomycterus vermiculatus,NA,Trichomycterus vermiculatus,VU,FALSE
 ES,Triclaria malachitacea,NA,Triclaria malachitacea,CR,FALSE
