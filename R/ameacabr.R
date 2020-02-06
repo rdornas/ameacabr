@@ -41,9 +41,6 @@ ameacabr <- function(x, ufs, subsp = F, tabela = T){
     dplyr::distinct(uf) %>%
     dplyr::pull(.)
 
-  df <- ameaca %>%
-    dplyr::as_tibble(.)
-
   suppressWarnings(
   if(subsp == T){
     if(ufs == "todas"){
